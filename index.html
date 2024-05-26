@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CE - Conecta Eletricista</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+        </div>
+        <div class="form-container">
+            <div class="form-header">
+                <p>Formulário</p>
+            </div>
+            <div class="form-body">
+                <h1 class="form-title">Solicite já seu serviço!</h1>
+                <p>Preencha o formulário e marque os opcionais que ele possui </p>
+                <form>
+                    <div class="box-input">
+                        <label for="name">Nome completo: </label>
+                        <input type="text" class="block" name="name" placeholder="Digite seu nome completo" minlength="1" required>
+                    </div>
+                    <div class="box-input">
+                        <label for="email">Email: </label>
+                        <input type="email" id="email" class="block" name="email" placeholder="Digite seu email" required>
+                    </div>
+                    <div class="box-input">
+                        <label for="phone">Telefone: </label>
+                        <input class="block" type="tel" class="block" name="phone" placeholder="Digite seu telefone" required>
+                    </div>
+                    <div class="box-input">
+                        <label for="adress">Endereço: </label>
+                        <input class="block" type="text" class="block" name="adress" placeholder="Digite seu endereço" required>
+                    </div>
+                    <div class="box-input">
+                    <!--Tipo de servico-->
+                    <p>Tipo de serviço: </p>
+                    <input type="radio" id="installation" name="installation">
+                    <label for="installation">Instalação</label>
+                    <input type="radio" id="repair" name="repair">
+                    <label for="automatico">Reparo</label>
+
+                    <input type="radio" id="maintenance" name="maintenance">
+                    <label for="maintenance">Manutenção</label>
+                    <input type="radio" id="inspection" name="inspection">
+                    <label for="inspection">Inspeção</label>
+                    </div>
+                    <div class="box-input">
+                        <label for="description">Descrição</label>
+                        <textarea class="block" id="description" name="description" placeholder="Aqui você coloca os detalhes do problema" required></textarea>
+                    </div>
+                    <div class="box-input">
+                        <label for="date">Data Preferida:</label>
+                        <input class="block" type="date" id="date" name="date" required>
+                    </div>
+                    <div class="box-input">
+                        <label for="time">Horário Preferido:</label>
+                        <input class="block" type="time" id="time" name="time" required>
+                    </div>
+
+                    <input type="submit" value="Enviar solicitação" class="btn-submit">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

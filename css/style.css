@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: #f0ebf8;
+}
+
+h1,h2,h3,h4,h5{
+    color: #333;
+}
+
+p, label{
+    color: #444;
+}
+
+input, select{
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+textarea{
+    width: 400px;
+}
+
+textarea{
+    padding: 10px 20px;
+}
+
+/*Header*/
+.header{
+    height: 160px;
+    padding: 20px;
+    background-image: url(../img/img-projeto.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+.header h3{
+    color: #444;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+/* Form*/
+.form-container{
+    background-color: #fdfdfd;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: -62px;
+}
+
+/* Form header */
+.form-header{
+    border-bottom: 1px solid #dfdfdf;
+    height: 45px;
+}
+
+.form-header p{
+    color: #444;
+    border-bottom: 2px solid #444 ;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
+}
+
+/* form body*/
+
+.form-body{
+    padding: 30px;
+}
+
+.form-title{
+    margin-bottom: 15px;
+}
+
+.form-body p{
+    margin-bottom: 15px;
+}
+
+.box-input{
+    margin-bottom: 35px;
+}
+
+.block{
+    display: block;
+}
+
+.box-input p{
+    margin-bottom: 15px;
+}
+
+.btn-submit{
+    background-color: #444;
+    color: #FFF;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
